@@ -1,0 +1,27 @@
+<!--pages/index/index.wxml-->
+
+<view class="weui-cells weui-cells_form" style="margin-top:10px;">
+
+	<view class="weui-cell">
+		<view class="weui-cell__bd">
+			<view class="weui-uploader">
+				<view class="weui-uploader__hd">
+					<p class="weui-uploader__title">上传门头照和营业照</p>
+				</view>
+				<view class="weui-uploader__bd">
+					<ul class="weui-uploader__files" id="uploaderFiles">
+						<block wx:for="{{imageList}}" wx:for-item="image">
+							<view class="weui-uploader__file">
+								<image class="weui-uploader__img" src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>
+							</view>
+						</block>
+					</ul>
+					<view class="weui-uploader__input-box" bindtap="chooseImage">
+						<input id="uploaderInput" class="weui-uploader__input" type="file" accept="image/*" multiple=""/>
+					</view>
+				</view>
+			</view>
+
+		</view>
+	</view>
+</view>

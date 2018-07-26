@@ -1,0 +1,9 @@
+/* pages/login/reg/reg.wxss */
+.weui-cell__hd{
+  padding-right: 10px;
+}
+.weui-uploader__file{
+  width: 77px;
+  height: 77px;
+}
+
