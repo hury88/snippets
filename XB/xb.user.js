@@ -18,7 +18,6 @@
             div.innerHTML = `<div style="position: fixed;top: 20.5px; bottom: auto; left: 423px; right: auto;background: #fff;border: 1px solid #ced1d9;border-radius: 4px;box-shadow: 0 0 3px #ced1d9;color: black;word-break: break-all;display: block;width: 520px;padding: 10px 20px;z-index: 9999;">
                                   <a href="javascript:AddTag('我的任务', '/index.php/Task/Taskinfo/index.html', 'icon75');" class="ToolBtn"><span class="icon9"></span><b>我的任务</b></a>
                                   
-
                                   <a title="有未接受的任务时,自动提交接受,并弹出日志框填写日志" href="javascript:xbhr_clockout();" class="ToolBtn"><span class="icon49"></span><b>一键打卡</b></a>
                                   <a href="javascript:xbhr_AcceptAllWork();" class="ToolBtn"><span class="icon313"></span><b>一键接受</b></a>
                  
