@@ -22,6 +22,7 @@
                                   <a title="有未接受的任务时,自动提交接受,并弹出日志框填写日志" href="javascript:xbhr_clockout();" class="ToolBtn"><span class="icon49"></span><b>一键打卡</b></a>
                                   <a href="javascript:xbhr_AcceptAllWork();" class="ToolBtn"><span class="icon313"></span><b>一键接受</b></a>
                                   &emsp;&emsp;&emsp;敬请期待
+                                  <a href="https://github.com/nicerway/snippets/raw/XB/XB/xb.user.js" class="ToolBtn"><b>更新脚本</b></a>
                              </div>`;
     //<a href="javascript:$.XB.open({ 'type':'add','openmode':'1', 'dialog': { 'url': '/index.php/Attendance/Worklog/edit/', 'title': '添加' } });" class="ToolBtn"><span class="icon7"></span><b>添加日志</b></a>
     //<a href="javascript:accept_startwork();" class="ToolBtn"><span class="icon313"></span><b>接受并且执行</b></a>
