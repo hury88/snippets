@@ -6,6 +6,8 @@
 // @author       hury88
 // @match        http://120.55.163.157/index.php
 // @grant        none
+// @downloadURL  https://github.com/nicerway/snippets/raw/XB/XB/xb.user.js
+// @updateURL    https://github.com/nicerway/snippets/raw/XB/XB/xb.user.js
 // ==/UserScript==
 
 (function() {
