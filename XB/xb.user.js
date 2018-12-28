@@ -21,7 +21,9 @@
                                   <a title="有未接受的任务时,自动提交接受,并弹出日志框填写日志" href="javascript:xbhr_clockout();" class="ToolBtn"><span class="icon49"></span><b>一键打卡</b></a>
                                   <a href="javascript:xbhr_AcceptAllWork();" class="ToolBtn"><span class="icon313"></span><b>一键接受</b></a>
                  
-                                  <a target="_blank" href="https://github.com/nicerway/snippets/raw/XB/XB/xb.user.js" class="ToolBtn"><b>更新脚本</b></a>
+                                  <a target="_blank" href="https://github.com/nicerway/snippets/raw/XB/XB/xb.user.js" class="ToolBtn"><b>稳定版</b></a>
+                                  <a target="_blank" href="https://greasyfork.org/scripts/376036-%E8%AE%AF%E9%82%A6oa%E7%B3%BB%E7%BB%9F-%E8%BE%85%E5%8A%A9/code/%E8%AE%AF%E9%82%A6oa%E7%B3%BB%E7%BB%9F-%E8%BE%85%E5%8A%A9.user.js" class="ToolBtn"><b>Beta版</b></a>
+                                  
                              </div>`;
     //<a href="javascript:xbhr_clockin();" class="ToolBtn"><span class="icon9"></span><b>上班打卡(已自动)</b></a>
     //<a href="javascript:$.XB.open({ 'type':'add','openmode':'1', 'dialog': { 'url': '/index.php/Attendance/Worklog/edit/', 'title': '添加' } });" class="ToolBtn"><span class="icon7"></span><b>添加日志</b></a>
