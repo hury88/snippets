@@ -1,3 +1,21 @@
+------------------获取性别年龄分组下的客流信息
+SELECT
+  gender,
+	sum( CASE WHEN age <= 17 THEN 1 ELSE 0 END ) AS "17岁以下",
+	sum( CASE WHEN age BETWEEN 18 AND 23 THEN 1 ELSE 0 END ) AS "18-23岁",
+	sum( CASE WHEN age BETWEEN 24 AND 30 THEN 1 ELSE 0 END ) AS "24-30岁",
+	sum( CASE WHEN age BETWEEN 31 AND 40 THEN 1 ELSE 0 END ) AS "31-40岁",
+	sum( CASE WHEN age BETWEEN 41 AND 50 THEN 1 ELSE 0 END ) AS "41-50岁",
+	sum( CASE WHEN age BETWEEN 51 AND 60 THEN 1 ELSE 0 END ) AS "51-60岁",
+	sum( CASE WHEN age >= 61 THEN 1 ELSE 0 END ) AS "60岁以上" 
+FROM
+	`sd_person_camera` 
+WHERE
+	`in_time` BETWEEN 1554716386 
+	AND 1554716401
+GROUP BY
+   `gender`
+--------------------------------------------
 if object_id('[tb]') is not null drop table [tb]
 go 
 create table [tb]([姓名] varchar(1),[部门] varchar(4),[学历] varchar(4),[出生年月] datetime)
