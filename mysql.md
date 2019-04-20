@@ -17,4 +17,6 @@ STR_TO_DATE("2010-11-23 14:39:51",'%Y-%m-%d %H:%i:%s')
 ---
 
 # 年龄段分组
+[区分各个年龄段 人数 并且区分男女](https://ymq267.iteye.com/blog/2247822)
+
 [https://www.jianshu.com/p/727f4661fdff](https://www.jianshu.com/p/727f4661fdff)
