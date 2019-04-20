@@ -15,3 +15,6 @@ STR_TO_DATE("2010-11-23 14:39:51",'%Y-%m-%d %H:%i:%s')
 ```
 
 ---
+
+# 年龄段分组
+[https://www.jianshu.com/p/727f4661fdff](https://www.jianshu.com/p/727f4661fdff)
